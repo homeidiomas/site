@@ -1,0 +1,49 @@
+.custom-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #a12c2f;
+    border: 2px solid #a12c2f;
+    color: #fff !important;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15)!important;
+    border-radius: 10px;
+    padding: 40px;
+    z-index: 999;
+    text-align: center;
+    max-width: 100%;
+    width: 90%;
+    height: auto;
+  }
+  
+  .custom-close-popup {
+    margin-top: 40px;
+    padding: 5px 10px;
+    display: block;
+    background-color: #f5a425;
+    border: 2px solid #f5a425;
+    color:#fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .custom-close-popup {
+    opacity: 0.9;
+  }
+  
+  .custom-list-item {
+    margin: 10px;
+  }
+
+  .custom-list-item:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .text-list {
+    color:#fff !important;
+    padding: 20px;
+    font-size: 1.2em;
+  }
