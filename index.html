@@ -212,7 +212,13 @@
 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
-    <img src="./assets/images/head-photo.jpg" alt="Video Poster Image" id="bg-image" />
+    <picture>
+      <!-- Display this image for screens wider than 600px -->
+      <source media="(min-width: 601px)" srcset="./assets/images/head-photo.jpg">
+      <!-- Display this image for screens 600px and below -->
+      <img src="./assets/images/head-photo-phone.jpg" alt="Video Poster Image" id="bg-image">
+    </picture>
+    
 
     
        
@@ -237,6 +243,7 @@
   <!-- ***** Main Banner Area End ***** -->
 
   <section class="services">
+    
     <div class="container">
       <div class="row">
         <div class="col-lg-12">

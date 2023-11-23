@@ -699,9 +699,9 @@ banner
   min-width: 100%;
   min-height: 100vh;
   max-width: 100%;
-  max-height: 100vh;
+  max-height: 120vh;
   object-fit: cover; /* This property scales the image to cover the entire container while maintaining aspect ratio */
-  object-position: top 5%; /* You can adjust the position as needed (e.g., center, center top, etc.) */
+  object-position: right 25%, top 5%; /* You can adjust the position as needed (e.g., center, center top, etc.) */
   z-index: -1;
 }
 
@@ -713,14 +713,14 @@ banner
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4); /* Adjust the opacity as needed */
+  background: rgba(82, 56, 8, 0.4); /* Adjust the opacity as needed */
   z-index: 0; /* You may need to adjust the z-index value if it conflicts with other elements */
 }
 
 .main-banner .caption {
   position: absolute;
-  top: 50% !important;
-  transform: translateY(-50%);
+  top: 60% !important;
+  transform: translateY(-60%);
 }
 
 .main-banner .caption h6 {
@@ -1062,7 +1062,7 @@ apply now
 
 section.apply-now {
   position: relative;
-  background-image: url(../images/students-class1.jpeg);
+  background-image: url(../images/people-talking.jpg);
   background-position: center -10%;
   background-attachment: fixed;
   background-repeat: no-repeat;
