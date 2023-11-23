@@ -691,17 +691,17 @@ banner
   position: relative;
   max-height: 100%;
   overflow: hidden;
+  object-position: center 10%;
   margin-bottom: -7px;
 }
 
 #bg-image {
-
   min-width: 100%;
   min-height: 100vh;
   max-width: 100%;
   max-height: 100vh;
   object-fit: cover; /* This property scales the image to cover the entire container while maintaining aspect ratio */
-  object-position: center 10%; /* You can adjust the position as needed (e.g., center, center top, etc.) */
+  object-position: top 5%; /* You can adjust the position as needed (e.g., center, center top, etc.) */
   z-index: -1;
 }
 
@@ -713,13 +713,13 @@ banner
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+  background: rgba(0, 0, 0, 0.4); /* Adjust the opacity as needed */
   z-index: 0; /* You may need to adjust the z-index value if it conflicts with other elements */
 }
 
 .main-banner .caption {
   position: absolute;
-  top: 50%;
+  top: 50% !important;
   transform: translateY(-50%);
 }
 
@@ -733,6 +733,7 @@ banner
 }
 
 .main-banner .caption h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Adjust values as needed */
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 36px;
@@ -743,12 +744,14 @@ banner
 }
 
 .main-banner .caption h2 em {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Adjust values as needed */
   font-style: normal;
   color: #f5a425;
   font-weight: 900;
 }
 
 .main-banner .caption p {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Adjust values as needed */
   color: #fff;
   font-size: 14px;
   max-width: 570px;
