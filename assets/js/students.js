@@ -1,12 +1,12 @@
 const students = [
-    { name: 'adj', birthday: '2000-01-01', course: 'Inglês' },
+    { name: 'Fernando', birthday: '2000-01-01', course: 'Inglês' },
     { name: 'adj2', birthday: '2000-01-01', course: 'Francês' },
     { name: 'adj3', birthday: '2000-01-01', course: 'Espanhol' },
     // Add more students with their name, birthday, and course as needed
 ];
 
 const redirectURLs = {
-    'Inglês': 'https://docs.google.com/document/d/1Le_mlgkJmlaLZh9_F-3HPGAd5sVMfbq-ELljEGsA3Qo/edit?usp=sharing',
+    'Inglês': 'https://docs.google.com/document/d/1OLT0uIhYoMh1IDFXu_2xHD859xxeDR0kX5RddR5jmAs/edit?usp=sharing',
     'Francês': 'https://docs.google.com/document/d/1Le_mlgkJmlaLZh9_F-3HPGAd5sVMfbq-ELljEGsA3Qo/edit?usp=sharing',
     'Espanhol': 'https://docs.google.com/document/d/1Le_mlgkJmlaLZh9_F-3HPGAd5sVMfbq-ELljEGsA3Qo/edit?usp=sharing',
     // Add more courses and their corresponding URLs as needed
